@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertical Radio Buttons</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form>
+        <label>
+            <input type="radio" name="option" value="option1" onclick="showParagraph('paragraph1')">option1
+        </label>
+        <label>
+            <input type="radio" name="option" value="option2" onclick="showParagraph('paragraph2')">Option 2
+        </label>
+        <label>
+            <input type="radio" name="option" value="option3" onclick="showParagraph('paragraph3')">Option 3
+        </label>
+    </form>
+
+    <div class="paragraphs">
+        <p id="paragraph1">This is paragraph 1.</p>
+        <p id="paragraph2">This is paragraph 2.</p>
+        <p id="paragraph3">This is paragraph 3.</p>
+    </div>
+    <div class="custom-select">
+      <div class="select-box">
+        <span class="selected-option">Select an option</span>
+        <ul class="options-list">
+          <li class="option">Option 1</li>
+          <li class="option">Option 2</li>
+          <li class="option">Option 3</li>
+        </ul>
+      </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

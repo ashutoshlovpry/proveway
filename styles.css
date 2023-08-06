@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.paragraphs {
+    margin-top: 20px;
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+p.active {
+    background-color: green;
+}
+
+/* Style for the custom dropdown */
+.custom-select {
+    position: relative;
+    width: 200px;
+  }
+  
+  /* Style for the select box */
+  .select-box {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Style for the selected option */
+  .selected-option {
+    color: #555;
+  }
+  
+  /* Style for the options list */
+  .options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 2;
+  }
+  
+  /* Style for each option item */
+  .option {
+    padding: 10px;
+  }
+  
+  /* Hover effect for options */
+  .option:hover {
+    background-color: #f2f2f2;
+  }
+  
